@@ -1,7 +1,5 @@
 import 'whatwg-fetch';
 
-import App from './routes/application.vue';
-
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
