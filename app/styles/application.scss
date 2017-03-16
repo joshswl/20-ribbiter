@@ -1,16 +1,11 @@
 .top-nav {
   padding: 0.5rem 1rem;
   background: $c-primary;
-  align-items: center;
-}
-
-.container {
-  max-width: $m-max-width;
-  margin: 0;
 }
 
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 
   &__right {

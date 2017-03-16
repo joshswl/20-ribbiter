@@ -8,6 +8,7 @@ $c-light: #b5e655;
 $c-secondary: #4bb5c1;
 $c-secondary-light: #7FC6BC;
 $c-white: #edf7f2;
+$c-dark-grey: #393939;
 $c-pure-white: #fff;
 
 $m-gutter: 1rem;
@@ -19,4 +20,5 @@ $font: 'Dosis', sans-serif;
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'reset';
-@import 'style';
+@import 'application';
+@import 'index';
