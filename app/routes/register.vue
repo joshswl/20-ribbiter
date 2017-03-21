@@ -6,15 +6,15 @@
         <form action="submit" class="card__form">
           <p class="card__username">Username</p>
           <p>
-            <input type="text" placeholder="username" class="input">
+            <input type="text" v-model="formValues.username" class="input">
           </p>
           <p class="card__email">Email</p>
           <p>
-            <input type="text" placeholder="email" class="input">
+            <input type="text" v-model="formValues.email" class="input">
           </p>
           <p class="card__password">Password</p>
           <p>
-            <input type="text" placeholder="password" class="input">
+            <input type="text" v-model="formValues.password" class="input">
           </p>
           <div class="card__buttons--container">
             <a href="#"><button type="button" name="login" class="card__buttons card__buttons--login">Login</button></a>
@@ -31,6 +31,11 @@ export default {
   name: 'Register',
   data() {
     return {
+      formValues: {
+        username: '',
+        email: '',
+        password: '',
+      }
     };
   },
 
