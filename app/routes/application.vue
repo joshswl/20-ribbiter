@@ -4,7 +4,7 @@
       <div class="container">
         <div class="navbar">
           <span class="navbar__left">
-            <a href="#" class="">Ribbiter</a>
+            <router-link :to="{ name: 'index' }">Ribbiter</router-link>
           </span>
           <div class="navbar__right">
             <a href="#" class="">Ribbits</a>

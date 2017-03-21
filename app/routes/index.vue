@@ -5,7 +5,7 @@
         <h2 class="welcome">Ribbiter Welcomes You</h2>
         <div class="buttons">
           <button class="buttons__actual">
-            <a href="#">Register</a>
+            <router-link :to="{ name: 'register' }">Register</router-link>
           </button>
           <button class="buttons__actual">
             <a href="#">Login</a>
