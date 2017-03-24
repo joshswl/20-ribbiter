@@ -4,4 +4,4 @@ const userResource = createResource('user', {
   url: 'http://ribbiterapi.herokuapp.com/users'
 });
 
-export default userResource();
+export default userResource;
