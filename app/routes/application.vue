@@ -9,7 +9,7 @@
           <div class="navbar__right">
             <a href="#" class="">Ribbits</a>
             <a href="#" class="">Frogs</a>
-            <a href="#" class="">Login</a>
+            <router-link :to="{ name: 'login' }">Login</router-link>
           </div>
         </div>
       </div>

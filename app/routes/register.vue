@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import store from '../store';
+// import store from '../store';
 import userResource from '../../../resources/user';
 export default {
   name: 'Register',

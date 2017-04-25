@@ -8,7 +8,7 @@
             <router-link :to="{ name: 'register' }">Register</router-link>
           </button>
           <button class="buttons__actual">
-            <a href="#">Login</a>
+            <router-link :to="{ name: 'login' }">Login</router-link>
           </button>
         </div>
       </div>
