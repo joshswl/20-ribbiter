@@ -1,6 +1,27 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+
+$c-primary: #96ca2d;
+$c-light: #b5e655;
+$c-secondary: #4bb5c1;
+$c-secondary-light: #7FC6BC;
+$c-white: #edf7f2;
+$c-dark-grey: #393939;
+$c-pure-white: #fff;
+
+$m-gutter: 1rem;
+$m-max-width: 60rem;
+
+$b-shadow: 4px 6px 20px -3px $c-dark-grey;
+
+$font: 'Dosis', sans-serif;
+
+
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'reset';
+@import 'application';
+@import 'index';
+@import 'register';

@@ -1,0 +1,20 @@
+.top-nav {
+  padding: 0.5rem 1rem;
+  background: $c-primary;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__right {
+    > * + * {
+      margin-left: $m-gutter;
+    }
+  }
+}
+
+a {
+  color: $c-white;
+}
